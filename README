@@ -1,0 +1,6 @@
+A SIMBL plugin which make "Reply" action as "Reply All".
+
+- Installation
+  - Install SIMBL
+  - Copy ReplaceReplyWithReplyAllForEchofon.bundle to ~/Library/Application Support/SIMBL/Plugins
+  - Restart Echofon

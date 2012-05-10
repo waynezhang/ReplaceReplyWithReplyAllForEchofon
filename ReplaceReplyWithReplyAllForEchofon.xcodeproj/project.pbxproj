@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0580D66155B3C520049D07C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0580D65155B3C520049D07C /* Cocoa.framework */; };
+		B0580D70155B3C520049D07C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0580D6E155B3C520049D07C /* InfoPlist.strings */; };
+		B0580D79155B3D000049D07C /* ReplaceReplyWithReplyAllForEchofon.m in Sources */ = {isa = PBXBuildFile; fileRef = B0580D78155B3D000049D07C /* ReplaceReplyWithReplyAllForEchofon.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0580D62155B3C520049D07C /* ReplaceReplyWithReplyAllForEchofon.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplaceReplyWithReplyAllForEchofon.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0580D65155B3C520049D07C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B0580D68155B3C520049D07C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B0580D69155B3C520049D07C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B0580D6A155B3C520049D07C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0580D6D155B3C520049D07C /* ReplaceReplyWithReplyAllForEchofon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReplaceReplyWithReplyAllForEchofon-Info.plist"; sourceTree = "<group>"; };
+		B0580D6F155B3C520049D07C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0580D71155B3C520049D07C /* ReplaceReplyWithReplyAllForEchofon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReplaceReplyWithReplyAllForEchofon-Prefix.pch"; sourceTree = "<group>"; };
+		B0580D77155B3D000049D07C /* ReplaceReplyWithReplyAllForEchofon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceReplyWithReplyAllForEchofon.h; sourceTree = "<group>"; };
+		B0580D78155B3D000049D07C /* ReplaceReplyWithReplyAllForEchofon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceReplyWithReplyAllForEchofon.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0580D5F155B3C520049D07C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0580D66155B3C520049D07C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0580D57155B3C510049D07C = {
+			isa = PBXGroup;
+			children = (
+				B0580D6B155B3C520049D07C /* ReplaceReplyWithReplyAllForEchofon */,
+				B0580D64155B3C520049D07C /* Frameworks */,
+				B0580D63155B3C520049D07C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0580D63155B3C520049D07C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0580D62155B3C520049D07C /* ReplaceReplyWithReplyAllForEchofon.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0580D64155B3C520049D07C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0580D65155B3C520049D07C /* Cocoa.framework */,
+				B0580D67155B3C520049D07C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0580D67155B3C520049D07C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0580D68155B3C520049D07C /* AppKit.framework */,
+				B0580D69155B3C520049D07C /* CoreData.framework */,
+				B0580D6A155B3C520049D07C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B0580D6B155B3C520049D07C /* ReplaceReplyWithReplyAllForEchofon */ = {
+			isa = PBXGroup;
+			children = (
+				B0580D6C155B3C520049D07C /* Supporting Files */,
+				B0580D77155B3D000049D07C /* ReplaceReplyWithReplyAllForEchofon.h */,
+				B0580D78155B3D000049D07C /* ReplaceReplyWithReplyAllForEchofon.m */,
+			);
+			path = ReplaceReplyWithReplyAllForEchofon;
+			sourceTree = "<group>";
+		};
+		B0580D6C155B3C520049D07C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0580D6D155B3C520049D07C /* ReplaceReplyWithReplyAllForEchofon-Info.plist */,
+				B0580D6E155B3C520049D07C /* InfoPlist.strings */,
+				B0580D71155B3C520049D07C /* ReplaceReplyWithReplyAllForEchofon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0580D61155B3C520049D07C /* ReplaceReplyWithReplyAllForEchofon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0580D74155B3C520049D07C /* Build configuration list for PBXNativeTarget "ReplaceReplyWithReplyAllForEchofon" */;
+			buildPhases = (
+				B0580D5E155B3C520049D07C /* Sources */,
+				B0580D5F155B3C520049D07C /* Frameworks */,
+				B0580D60155B3C520049D07C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReplaceReplyWithReplyAllForEchofon;
+			productName = ReplaceReplyWithReplyAllForEchofon;
+			productReference = B0580D62155B3C520049D07C /* ReplaceReplyWithReplyAllForEchofon.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0580D59155B3C510049D07C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = lhzhang.com;
+			};
+			buildConfigurationList = B0580D5C155B3C510049D07C /* Build configuration list for PBXProject "ReplaceReplyWithReplyAllForEchofon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0580D57155B3C510049D07C;
+			productRefGroup = B0580D63155B3C520049D07C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0580D61155B3C520049D07C /* ReplaceReplyWithReplyAllForEchofon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0580D60155B3C520049D07C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0580D70155B3C520049D07C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0580D5E155B3C520049D07C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0580D79155B3D000049D07C /* ReplaceReplyWithReplyAllForEchofon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0580D6E155B3C520049D07C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0580D6F155B3C520049D07C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0580D72155B3C520049D07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B0580D73155B3C520049D07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B0580D75155B3C520049D07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReplaceReplyWithReplyAllForEchofon/ReplaceReplyWithReplyAllForEchofon-Prefix.pch";
+				INFOPLIST_FILE = "ReplaceReplyWithReplyAllForEchofon/ReplaceReplyWithReplyAllForEchofon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B0580D76155B3C520049D07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReplaceReplyWithReplyAllForEchofon/ReplaceReplyWithReplyAllForEchofon-Prefix.pch";
+				INFOPLIST_FILE = "ReplaceReplyWithReplyAllForEchofon/ReplaceReplyWithReplyAllForEchofon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0580D5C155B3C510049D07C /* Build configuration list for PBXProject "ReplaceReplyWithReplyAllForEchofon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0580D72155B3C520049D07C /* Debug */,
+				B0580D73155B3C520049D07C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0580D74155B3C520049D07C /* Build configuration list for PBXNativeTarget "ReplaceReplyWithReplyAllForEchofon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0580D75155B3C520049D07C /* Debug */,
+				B0580D76155B3C520049D07C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0580D59155B3C510049D07C /* Project object */;
+}
